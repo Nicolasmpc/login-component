@@ -1,12 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Component</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Login Component</h1>
+    <main class="container">
+        <div class="login">
+
+            <img src="img/login-svgrepo-com.svg" alt="Welcome">
+
+            <h1>Welcome!</h1>
+            <span>Sign in to Your account</span>
+
+            <label for="username">Username </label>
+            <input type="text" name="username" id="username">
+
+            <label for="password">Password </label>
+            <input type="password" name="password" id="password">
+
+            <button type="submit">Login</button>
+
+            <a href="javascript:register();">Register</a>
+
+        </div>
+
+        <div class="register">
+
+        </div>
+
+    </main>
+
+    <script src="main.js"></script>
 </body>
+
 </html>
